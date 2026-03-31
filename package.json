@@ -1,0 +1,19 @@
+{
+    "name": "mcp-server-tests",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Tests for the MCP server",
+    "main": "dist/server.js",
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.29.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0"
+    },
+    "scripts": {
+        "build": "tsc",
+        "start": "npm run build && node dist/server.js",
+        "dev": "tsc && node dist/server.js"
+    }
+}
