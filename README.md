@@ -15,3 +15,9 @@ npm install
 ```bash
 npm start
 ```
+
+## Test locally
+
+```bash
+npx @modelcontextprotocol/inspector
+```
